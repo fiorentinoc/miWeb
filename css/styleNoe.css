@@ -1,0 +1,55 @@
+* {
+    font-family: 'Gluten', cursive;
+}
+header {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 31%, rgba(253,29,29,1) 78%, rgba(252,176,69,1) 100%);
+}
+main {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+footer {
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 38%, rgba(9,9,121,1) 96%);
+}
+
+.nombre {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 3px 5px white;
+
+}
+.encabezado{
+    text-align: center;
+} 
+.cont-encabezado {
+    display: flex;
+    justify-content: center;
+}
+
+#data {
+    padding: 30px;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+#data:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+.foto {
+    width: 150px;
+    height: auto;
+    border-radius: 75px;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.foto:hover {
+    padding: 50px;
+    width: 200px;
+    height: auto;
+}
+.rs {
+    padding: 40px;
+
+}
